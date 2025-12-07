@@ -1,0 +1,32 @@
+name: flutter_viacep_app
+description: Aplicativo Flutter para consulta de CEP utilizando a API ViaCEP.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP client para fazer requisições
+  http: ^1.1.0
+
+  # Provider para gerenciamento de estado
+  provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Análise de código
+  flutter_lints: ^3.0.0
+
+  # Testes unitários
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true

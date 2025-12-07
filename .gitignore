@@ -1,0 +1,52 @@
+# Ignore para segurança e deployment
+
+# Arquivos sensíveis
+.env
+.env.local
+.env.*.local
+*.keystore
+*.jks
+*.key
+*.p8
+*.mobileprovision
+*.cer
+
+# Secrets
+secrets/
+credentials/
+private_keys/
+
+# Build e artifacts
+build/
+.dart_tool/
+coverage/
+*.apk
+*.ipa
+*.app/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.tmp
+
+# Análise
+.flutter-root
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Dependências
+.packages
+pubspec.lock
+.pub-cache/
